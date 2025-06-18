@@ -16,7 +16,7 @@ import {
 import Image from 'next/image'
 
 export default function Page() {
-    const device:string = "WORKSTATION M507" //Change to let and proper updating when the time comes
+    const device:string = "WORKSTATION M507" //Change to let and proper updating when the time comes, use "use-state"
 
     return (
         <>
