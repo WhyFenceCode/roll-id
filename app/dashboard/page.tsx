@@ -22,7 +22,7 @@ export default function Page() {
         <>
         <div className="w-dvw h-dvh p-2">
             <div className="w-full p-8 pb-0 mt-8 mb-4">
-                <Card>
+                <Card className="bg-white">
 
                 </Card>
             </div>
