@@ -20,8 +20,8 @@ export default function Page() {
 
     return (
         <>
-        <div className="w-dvw h-dvh p-2">
-            <div className="w-full p-8 pb-0 mt-8 mb-4">
+        <div className="w-dvw h-dvh p-4">
+            <div className="w-full p-6 pb-0 mt-8 mb-12">
                 <Card className="bg-slate-100">
 
                 </Card>
