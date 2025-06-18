@@ -33,7 +33,7 @@ export default function Page() {
                     alt="Roll Card Representation"
                 />
             </div>
-            <Drawer open>
+            <Drawer defaultOpen>
                 <DrawerContent>
                     <DrawerHeader>
                         <DrawerTitle>Sign In to Device?</DrawerTitle>
