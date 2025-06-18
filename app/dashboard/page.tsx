@@ -2,6 +2,17 @@ import {
     Card
 } from "@/components/ui/card"
 
+import { Button } from "@/components/ui/button"
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+} from "@/components/ui/drawer"
+
 import Image from 'next/image'
 
 export default function Page() {
@@ -20,6 +31,20 @@ export default function Page() {
                     alt="Roll Card Representation"
                 />
             </div>
+            <Drawer open>
+                <DrawerContent>
+                    <DrawerHeader>
+                        <DrawerTitle>Sign In to Device?</DrawerTitle>
+                        <DrawerDescription>This action shares data with an outside device!</DrawerDescription>
+                    </DrawerHeader>
+                    <DrawerFooter>
+                        <Button>Share Data</Button>
+                        <DrawerClose>
+                            <Button variant="outline">Cancel</Button>
+                        </DrawerClose>
+                    </DrawerFooter>
+                </DrawerContent>
+            </Drawer>
         </div>
         </>
     )
