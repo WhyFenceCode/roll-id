@@ -16,6 +16,8 @@ import {
 import Image from 'next/image'
 
 export default function Page() {
+    let device:string = "WORKSTATION M507"
+
     return (
         <>
         <div className="w-dvw h-dvh p-2">
@@ -35,12 +37,12 @@ export default function Page() {
                 <DrawerContent>
                     <DrawerHeader>
                         <DrawerTitle>Sign In to Device?</DrawerTitle>
-                        <DrawerDescription>This action shares data with an outside device!</DrawerDescription>
+                        <DrawerDescription>Device: <strong>{device}</strong></DrawerDescription>
                     </DrawerHeader>
                     <DrawerFooter>
                         <Button>Share Data</Button>
                         <DrawerClose>
-                            <Button variant="outline">Cancel</Button>
+                            <Button variant="ghost">Cancel</Button>
                         </DrawerClose>
                     </DrawerFooter>
                 </DrawerContent>
