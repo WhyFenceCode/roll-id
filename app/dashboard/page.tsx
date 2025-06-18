@@ -28,7 +28,7 @@ export default function Page() {
             </div>
             <div className="w-full aspect-8560/5398 relative">
                 <Image
-                    src="/rollcard.png"
+                    src="/rollcard.webp"
                     fill
                     alt="Roll Card Representation"
                 />
@@ -37,7 +37,7 @@ export default function Page() {
                 <DrawerContent>
                     <DrawerHeader>
                         <DrawerTitle>Sign In to Device?</DrawerTitle>
-                        <DrawerDescription>Device: <strong>{device}</strong></DrawerDescription>
+                        <DrawerDescription>DEVICE: <strong>{device}</strong></DrawerDescription>
                     </DrawerHeader>
                     <DrawerFooter>
                         <Button>Share Data</Button>
