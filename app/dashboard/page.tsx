@@ -41,7 +41,7 @@ export default function Page() {
                     </DrawerHeader>
                     <DrawerFooter>
                         <Button>Share Data</Button>
-                        <DrawerClose asChild>
+                        <DrawerClose>
                             <Button variant="ghost">Cancel</Button>
                         </DrawerClose>
                     </DrawerFooter>
