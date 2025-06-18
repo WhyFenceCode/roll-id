@@ -28,7 +28,7 @@ export default function Page() {
             </div>
             <div className="w-full aspect-8560/5398 relative">
                 <Image
-                    src="/rollcard.webp"
+                    src="/rollcard.png"
                     fill
                     alt="Roll Card Representation"
                 />
