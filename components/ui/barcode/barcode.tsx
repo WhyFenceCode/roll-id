@@ -14,7 +14,6 @@ export function BarCode({
         }
     });
 
-  return (
-    <canvas ref={deviceBarCode} className="w-full h-12"/>
-  )
+  return <img ref={deviceBarCode} className="w-full h-12"/>
+  
 }
