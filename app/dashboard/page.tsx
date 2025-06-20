@@ -2,6 +2,8 @@ import {
     Card
 } from "@/components/ui/card"
 
+import { CardSim } from "lucide-react"
+
 import { Button } from "@/components/ui/button"
 import {
   Drawer,
@@ -40,7 +42,10 @@ export default function Page() {
                         <DrawerDescription>DEVICE: <strong>{device}</strong></DrawerDescription>
                     </DrawerHeader>
                     <DrawerFooter>
-                        <Button>Share Data</Button>
+                        <Button>
+                            <CardSim />
+                            Share Data
+                        </Button>
                         <DrawerClose>
                             <Button variant="ghost">Cancel</Button>
                         </DrawerClose>
