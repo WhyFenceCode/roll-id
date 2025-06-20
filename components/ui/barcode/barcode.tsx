@@ -15,6 +15,6 @@ export function BarCode({
     });
 
   return (
-    <svg ref={deviceBarCode} className="w-full h-12"/>
+    <canvas ref={deviceBarCode} className="w-full h-12"/>
   )
 }
