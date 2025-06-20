@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {
     Card
 } from "@/components/ui/card"
@@ -33,7 +35,7 @@ export default function Page() {
         <div className="w-dvw h-dvh p-8">
             <div className="w-full p-2 pb-0 mt-8 mb-12">
                 <Card className="bg-slate-100">
-                    <svg ref={deviceBarCode} className="w-full h-12"/>
+                    <canvas ref={deviceBarCode} className="w-full h-12"/>
                 </Card>
             </div>
             <div className="w-full aspect-8560/5398 relative">
