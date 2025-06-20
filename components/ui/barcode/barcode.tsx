@@ -8,7 +8,7 @@ export function BarCode({ code }: { code: string }) {
     options: {
       background: '#f1f5f9',
       displayValue: false,
-      height: 200,
+      height: 100,
     },
   });
 
