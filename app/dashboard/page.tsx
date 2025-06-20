@@ -25,7 +25,7 @@ export default function Page() {
     return (
         <>
         <div className="w-dvw h-dvh p-8">
-            <div className="w-full p-2 pb-0 mt-8 mb-12">
+            <div className="w-full p-2 pb-0 mt-4 mb-12">
                 <Card className="bg-slate-100 p-2">
                     <BarCode code="ytr675-julk768tyk" />
                 </Card>
