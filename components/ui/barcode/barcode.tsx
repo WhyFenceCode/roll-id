@@ -7,8 +7,10 @@ export function BarCode({ code }: { code: string }) {
     value: code,
     options: {
       background: '#f1f5f9',
+      displayValue: false,
+      height: 200,
     },
   });
 
-  return <img ref={inputRef} alt="Barcode" className="w-full h-12" />;
+  return <img ref={inputRef} alt="Barcode" className="w-full" />;
 }
